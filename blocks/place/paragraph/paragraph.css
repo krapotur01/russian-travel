@@ -1,0 +1,27 @@
+.paragraph {
+    grid-area: paragraph;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
+}
+
+@media screen and (max-width: 1024px) {
+    .paragraph {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .paragraph {
+        max-width: 352px;
+        font-size: 16px;
+    }
+}   
+
+@media screen and (max-width: 320px) {
+    .paragraph {
+        max-width: 288px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+}   

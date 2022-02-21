@@ -1,0 +1,35 @@
+.cover {
+    box-sizing: border-box;
+    width: 92.5%;
+    height: 57.8vw;
+    background-image: url(cover-trains.jpg);
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cover::before {
+    content: '';
+    opacity: 0.3;
+    background-color: #2A2C2F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+ 

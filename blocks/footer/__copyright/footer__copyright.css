@@ -1,0 +1,32 @@
+.footer__copyright {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__copyright {
+        opacity: 0.1;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer__copyright {
+        padding-top: 48px;
+        line-height: 14px;
+        align-self: flex-start;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        padding-top: 48px;
+        line-height: 14px;
+        align-self: flex-start;
+        opacity: 1;
+    }
+}

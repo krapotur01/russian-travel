@@ -1,3 +1,15 @@
 .header {
-    
+    width: 92.5%;
+    margin: auto;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-top: 16px;
+        align-items: end;
+    }
 }
