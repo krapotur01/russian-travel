@@ -1,10 +1,4 @@
 .place__paragraph {
-    margin: 0 0 27px;
+    margin: 0;
     padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-    .place__image {
-        margin-bottom: 25px;
-    }
 }
