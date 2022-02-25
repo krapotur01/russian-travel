@@ -21,4 +21,4 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Ссылка на проект в GitHub
-https://github.com/krapotur01/russian-travel.git
+https://krapotur01.github.io/russian-travel/index.html
